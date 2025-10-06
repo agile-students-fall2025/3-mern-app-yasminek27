@@ -81,13 +81,13 @@ app.post('/messages/save', async (req, res) => {
 app.get('/about-us', (req, res) => {
   res.json({
     title: "About Us",
+    imageUrl: "https://drive.usercontent.google.com/download?id=18wwnLRKLDugnkZYQBbcbgEZGArqwMGee&export=view&authuser=0",
     paragraphs: [
       "Hello! My name is Yasmine and I am a junior at NYU! I am currently studying computer science and data science. I love to travel, cook, bake, and read!",
       "My favorite place to travel to is Morocco. I love to see my family there and exploring new places that pop up every summer.",
       "Some of the my favorite things to cook is Moroccan food like harira, our tomato soup, and tagine.",
       "Some things I love to bake are cookies, orange cake, and brownies"
-    ],
-    imageUrl: ""
+    ]
   })
 })
 
